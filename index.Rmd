@@ -4,14 +4,12 @@ output: html_document
 ---
 
 ## Project title
-> Give your project a concise, interesting title that summarizes the entirety of your project
 
 World Happiness Project
 
 ### Authors
-> Names of your team members
 
-Angela Qi (aqi@uw.edu), Daniel Yan (zifany3@uw.edu), Naomi Nguyen (naomin3@uw.edu), Steve Shannon-Sevillano (stevess@uw.edu)
+Angela Qi, Daniel Yan, Naomi Nguyen, Steve Shannon-Sevillano
 
 ### Date
 
@@ -19,20 +17,13 @@ Febuary 20th, 2023
 
 ### Abstract
 
-> No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
-
 Our main question is how different nations across the world rank in terms of happiness, what factors affect people’s quality of life, and how different nations perceive their own happiness. This question is important because it invites countries to give more importance and attention to physical, mental, and social happiness that can be achieved with economical and social advancements. To address the question, we will examines levels of GDP, life expectancy, generosity, social support, freedom, and corruption in each sample population.
 
 ### Keywords
 
-> 3-5 keywords that summarize your project.
-> (e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
-
 Keywords: Happiness; Freedom, Life Expectancy, GDP per capita, available resources 
 
 ### Introduction  
-
-> Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
 
 1) How nations rank in terms of their happiness
 2) What factors influence a populations happiness
@@ -42,8 +33,6 @@ Keywords: Happiness; Freedom, Life Expectancy, GDP per capita, available resourc
 The motivation behind these questions is that with the average life span throughout our species' time on earth has dramatically increased. With more basic needs for survival being met and with modern medicine allowing us to live longer lives, the death rate from suicide still increases. In the last decade, there have been more people taking their own life compared to people dying in military action. So our group started to question, why are people still taking their own lives when basic needs are being met more than in the past. As a result, our group is interested in looking at the data on objective happiness around the globe. We want to see what other factors are impacting the happiness of people and how they compare between nations. This is important in being able to see trends of how our population's mental health is doing, and what factors most heavily impact their happiness. With this, psychologists/clinicians/lawmakers can use this data and see what aspects are impacting their population the most and focus their efforts where it will have the most impact. 
 
 ### Related Work  
-
-> Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
 
 These related works focus on some datasets about the World Happiness Report. These reports were compiled within the last two years for the accuracy of information collected. We collect our original data from these websites, including the particular impact of Covid-19 on the World Happiness. We invision our project to encompass outlines similar to these websites. However, we do hope to be able to include more data throughout the years, provided on the World Happiness Report. The websites done by Ache and Nomirocska include bar graphs, heat maps, and other diagrams to visually show the levels of happiness in different parts of the world. Ache’s website, in particular, shows a interactive portion where we can input and estimate our own levels of happiness compared to the rest of the population. Through these works, we have obtained reliable databases, and can refer to the analysis of these data by professionals. With the data collected from the professional, we can see any extreme trends that could possible lead to a shift in population happiness. After all, COVID-19 created a dramatically different lifestyles that forced many populations to adjust to a more solitary lifestyle which could have a big impact on population happiness. Due to these quick dramatic changes, this could relate to our work by using the quick change in life style to see if there were any other factors that quickly changed that could influence how happiness in populations. Especially since the COVID-19 response varied a lot between nations, this could give us good insight into their happiness and other factors. 
 

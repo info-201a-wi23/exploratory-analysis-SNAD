@@ -4,20 +4,24 @@ output: html_document
 ---
 
 ## Project title
+> Give your project a concise, interesting title that summarizes the entirety of your project
 
-Give your project a concise, interesting title that summarizes the entirety of your project
+World Happiness Project
 
 ### Authors
+> Names of your team members
 
-Names of your team members
+Angela Qi (aqi@uw.edu), Daniel Yan (zifany3@uw.edu), Naomi Nguyen (naomin3@uw.edu), Steve Shannon-Sevillano (stevess@uw.edu)
 
 ### Date
 
-Winter 2022
+Febuary 20th, 2023
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+>No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+
+Our main question is how different nations across the world rank in terms of happiness, what factors affect people’s quality of life, and how different nations perceive their own happiness. This question is important because it invites countries  to give more importance and attention to physical, mental, and social happiness that can be achieved with economical and social advancements. To address the question, we will examines levels of GDP, life expectancy, generosity, social support, freedom, and corruption in each sample population.
 
 ### Keywords
 

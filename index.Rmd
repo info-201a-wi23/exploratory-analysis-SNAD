@@ -81,13 +81,10 @@ Happiness is subjective. Even if the World Happiness Report is able to somewhat 
 
 ### Implications
 
-> Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
-
 The future possible implications are that more data shows could help psychologists, clinicians, policymakers, and more to be able to make more informed decisions with the population. Possibly be able to focus more money on certain programs that target a specific factor in reasons why a population's happiness is low. This could also allow certain nations to be able to tailor specific programs for their populations since the data set has multiple nations that measure the same factors. The overall objective for this is to make it easy to see what the problem is and be able to focus resources as effectively as possible in hopes of creating happier people. Of course, we realize that with a quarter-long project, this will be hard to make significant changes, but making something as something easy to understand and visualize could help convince policymakers much more easily than before. Though, in the most ideal world, we hope that this will for more tailored government programs for the nation in question to address their own population’s specific needs in their mental health. 
 
 
 ### Limitations & Challenges
-> What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
 
 Some limitations faced with the idea of world happiness are that since this data was collected in many countries, there are many cultural differences that may affect how each individual answers their survey questions. This brings up the recurring challenge of subjectivity with this project. There is no universally accepted measurement of happiness, and how each person decides to define it varies on their life experiences. Besides the 6 main factors we are looking into (levels of GDP, life expectancy, generosity, social support, freedom, and corruption), there are so many other factors that may contubute to happiness in an individual. In a lot of countries, mental health is still very stigmatized, leading to many individuals not believing that they might be subjected to it. Thus any questions regarding mental health may not be interpreted the same way depending on each culture. In gerenal there are many data collection methodology we are unaware of how it was done. 
 

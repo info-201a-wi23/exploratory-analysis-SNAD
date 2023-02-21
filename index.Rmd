@@ -19,40 +19,88 @@ Febuary 20th, 2023
 
 ### Abstract
 
->No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+> No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
 
-Our main question is how different nations across the world rank in terms of happiness, what factors affect people’s quality of life, and how different nations perceive their own happiness. This question is important because it invites countries  to give more importance and attention to physical, mental, and social happiness that can be achieved with economical and social advancements. To address the question, we will examines levels of GDP, life expectancy, generosity, social support, freedom, and corruption in each sample population.
+Our main question is how different nations across the world rank in terms of happiness, what factors affect people’s quality of life, and how different nations perceive their own happiness. This question is important because it invites countries to give more importance and attention to physical, mental, and social happiness that can be achieved with economical and social advancements. To address the question, we will examines levels of GDP, life expectancy, generosity, social support, freedom, and corruption in each sample population.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+> 3-5 keywords that summarize your project.
+> (e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+
+Keywords: Happiness; Freedom, Life Expectancy, GDP per capita, available resources 
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+> Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+
+1) How nations rank in terms of their happiness
+2) What factors influence a populations happiness
+3) What is the overall trend of happiness throughout the years
+4) What corrations could be made with factors and happiness over time
+
+The motivation behind these questions is that with the average life span throughout our species' time on earth has dramatically increased. With more basic needs for survival being met and with modern medicine allowing us to live longer lives, the death rate from suicide still increases. In the last decade, there have been more people taking their own life compared to people dying in military action. So our group started to question, why are people still taking their own lives when basic needs are being met more than in the past. As a result, our group is interested in looking at the data on objective happiness around the globe. We want to see what other factors are impacting the happiness of people and how they compare between nations. This is important in being able to see trends of how our population's mental health is doing, and what factors most heavily impact their happiness. With this, psychologists/clinicians/lawmakers can use this data and see what aspects are impacting their population the most and focus their efforts where it will have the most impact. 
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+> Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+
+These related works focus on some datasets about the World Happiness Report. These reports were compiled within the last two years for the accuracy of information collected. We collect our original data from these websites, including the particular impact of Covid-19 on the World Happiness. We invision our project to encompass outlines similar to these websites. However, we do hope to be able to include more data throughout the years, provided on the World Happiness Report. The websites done by Ache and Nomirocska include bar graphs, heat maps, and other diagrams to visually show the levels of happiness in different parts of the world. Ache’s website, in particular, shows a interactive portion where we can input and estimate our own levels of happiness compared to the rest of the population. Through these works, we have obtained reliable databases, and can refer to the analysis of these data by professionals. With the data collected from the professional, we can see any extreme trends that could possible lead to a shift in population happiness. After all, COVID-19 created a dramatically different lifestyles that forced many populations to adjust to a more solitary lifestyle which could have a big impact on population happiness. Due to these quick dramatic changes, this could relate to our work by using the quick change in life style to see if there were any other factors that quickly changed that could influence how happiness in populations. Especially since the COVID-19 response varied a lot between nations, this could give us good insight into their happiness and other factors. 
+
+References
+ACHÉ. (2021). World Happiness Report 2015-2021. World Happiness Report 2015-2021 | Kaggle. Retrieved February 3, 2023, from https:///datasets/mathurinache/world-happiness-report-20152021
+
+Nomirovska. (2022, October 7). How we built Interactive World Happiness Dashboard - Mighty Digital. How We Built Interactive World Happiness Dashboard - Mighty Digital. Retrieved February 3, 2023, from https://www.mighty.digital/blog/interactive-world-happiness-dashboard#:~:text=The%20World%20Happiness%20Report%20results,and%20national%20progress%20to%20happiness
+
+Helliwell, Huang, Wang, & Norton. (2022, March 18). Happiness, Benevolence, and Trust During COVID-19 and Beyond. Happiness, Benevolence, and Trust During COVID-19 and Beyond | the World Happiness Report. Retrieved February 3, 2023, from https://worldhappiness.report/ed/2022/happiness-benevolence-and-trust-during-covid-19-and-beyond/
+
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+> Where did you find the data? Please include a link to the data source  
+
+We found this dataset via https://betterprogramming.pub/. They linked us to the sourced dataset https://www.kaggle.com/datasets/mathurinache/world-happiness-report-20152021. This lead us to the original website: https://worldhappiness.report/archive/
+
+> Who collected the data?  
+
+This data was orignally collected by The World Happiness Report. 
+
+> How was the data collected or generated?  
+
+The data was collected via a yearly global survey (Gallup World Poll) distrubuted to many countries. 
+
+> Why was the data collected?  
+
+Many world leaders are starting to talk about the significance of their citizens well-being, thus, leading to policy changes that better reflect how the people perceive their living conditions. In response to this, the World Happiness Reports hopes to collect data in order to support these efforts of policy changes.
+
+> How many observations (rows) are in your data?  
+
+156
+
+> How many features (columns) are in the data?  
+
+6
+
+> What, if any, ethical questions or questions of power do you need to consider when working with this data? 
+
+We need to consider the amount of untruthful or fabricated data people are when answering survey questions, and this can be due to a number of factors. One of which could be data privacy, as the individual taking the survey may not feel comfortable sharing the complete truth due to fear of getting in trouble with the government. There is also a power imbalance when it comes to who has access to taking the survey and who could take it.
+
+> What are possible limitations or problems with this data?   (at least 200 words)
+
+Happiness is subjective. Even if the World Happiness Report is able to somewhat categorize and create a meter to measure happiness, those categories are subjectively made and could hold many interpretations. There could also be errors in how accurately the measure of happiness reflects the individual's experience. Some people tend to downplay their problems and others tend to exaggerate it. How people choose to rate their own current well being varies greatly. This also varies throughout the years that they decide to collect data. If it is with the same group of people, those people may experience more or less challenges the following year, thus, rating their happiness lower, but again, that is very subjective. In the case where they decide to take data from different groups of people each year, it is difficult to make a definitive comparison of happiness levels over time. Subjectivity increases as the variability of samples collected each year increases. This makes tracking trends difficult to identify. Another limitation is that we are not certain about the exact amount of surveys done by each country, and how well the survey was distributed- if it accurately accounts for different regions. For that reason, a sample size that is not large enough to sufficiently account for everyone makes its data difficult to use to generalize for a whole country. 
+
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+> Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+
+The future possible implications are that more data shows could help psychologists, clinicians, policymakers, and more to be able to make more informed decisions with the population. Possibly be able to focus more money on certain programs that target a specific factor in reasons why a population's happiness is low. This could also allow certain nations to be able to tailor specific programs for their populations since the data set has multiple nations that measure the same factors. The overall objective for this is to make it easy to see what the problem is and be able to focus resources as effectively as possible in hopes of creating happier people. Of course, we realize that with a quarter-long project, this will be hard to make significant changes, but making something as something easy to understand and visualize could help convince policymakers much more easily than before. Though, in the most ideal world, we hope that this will for more tailored government programs for the nation in question to address their own population’s specific needs in their mental health. 
+
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+> What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+Some limitations faced with the idea of world happiness are that since this data was collected in many countries, there are many cultural differences that may affect how each individual answers their survey questions. This brings up the recurring challenge of subjectivity with this project. There is no universally accepted measurement of happiness, and how each person decides to define it varies on their life experiences. Besides the 6 main factors we are looking into (levels of GDP, life expectancy, generosity, social support, freedom, and corruption), there are so many other factors that may contubute to happiness in an individual. In a lot of countries, mental health is still very stigmatized, leading to many individuals not believing that they might be subjected to it. Thus any questions regarding mental health may not be interpreted the same way depending on each culture. In gerenal there are many data collection methodology we are unaware of how it was done. 
 
 ### Summary Information
 

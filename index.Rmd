@@ -139,7 +139,7 @@ summary_table <- WHR_2021 %>% group_by(Regional.indicator) %>% summarise(
   avg_lifespan_score <- round(mean(Healthy.life.expectancy), 2),
 )
 
-This table includes the summerized statics for the total number of countries in each region, the average Ladder score, the average score of freedom to make life choices, the average GDP per capita score, and the average score for a healthy life expectancy. The table reveals that. . . . . 
+This table includes the summerized statics for the total number of countries in each region, the average Ladder score, the average score of freedom to make life choices, the average GDP per capita score, and the average score for a healthy life expectancy. The table reveals whether these variables affect an individual's happiness level and how they affect and/or correlate with each other.  
 
 ### Chart 1
 

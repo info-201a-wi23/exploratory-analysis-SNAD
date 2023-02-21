@@ -1,3 +1,5 @@
+#RUN CODE IN THIS ORDER: Lines 4 and 5 -> line 8 -> line 12 -> lines 14-27 -> line 31
+
 # Required libraries
 library(dplyr)
 library(plotly)

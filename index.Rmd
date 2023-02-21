@@ -89,8 +89,37 @@ The future possible implications are that more data shows could help psychologis
 Some limitations faced with the idea of world happiness are that since this data was collected in many countries, there are many cultural differences that may affect how each individual answers their survey questions. This brings up the recurring challenge of subjectivity with this project. There is no universally accepted measurement of happiness, and how each person decides to define it varies on their life experiences. Besides the 6 main factors we are looking into (levels of GDP, life expectancy, generosity, social support, freedom, and corruption), there are so many other factors that may contubute to happiness in an individual. In a lot of countries, mental health is still very stigmatized, leading to many individuals not believing that they might be subjected to it. Thus any questions regarding mental health may not be interpreted the same way depending on each culture. In gerenal there are many data collection methodology we are unaware of how it was done. 
 
 ### Summary Information
+> Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+
+WHR_2021 <- read.csv("./WHR_2021.csv")
+
+#Average ladder score
+avg_ladder <- round(mean(WHR_2021$Ladder.score), 2)
+
+#Highest country for freedom of decision 
+highest_freedom <- WHR_2021 %>% filter(Freedom.to.make.life.choices == max(Explained.by..Freedom.to.make.life.choices)) %>% pull(Country.name)
+
+#Average life expectancy 
+avg_life_expectancy <- round(mean(WHR_2021$Healthy.life.expectancy), 2)
+
+#Number of countries 
+num_countries <- nrow(WHR_2021)
+
+#Number of regions
+num_regions <- length(unique(WHR_2021$Regional.indicator))
+
+#Average GTP 
+avg_GTP <- round(mean(WHR_2021$Logged.GDP.per.capita), 2)
+
+
+summary_info <- list()
+summary_info$avg_ladder <- avg_ladder
+summary_info$highest_freedom <- highest_freedom
+summary_info$avg_life_expectancy <- avg_life_expectancy
+summary_info$num_countries <- num_countries
+summary_info$num_regions <- num_regions 
+summary_info$avg_GTP <- avg_GTP
 
 ### Table
 

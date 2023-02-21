@@ -6,7 +6,6 @@ library(plotly)
 WHR_2021 <- read.csv("./WHR_2021.csv")
 
 # Making graph
-
 scatter_plot <- function(){
   summarise <- WHR_2021 %>% select(Ladder.score, Freedom.to.make.life.choices)
   plot <- plot_ly(
@@ -25,4 +24,7 @@ scatter_plot <- function(){
         yaxis = list(title= "Freedom to make life choices")
       )
 }
+
+#Plotting graph
+plot
 

@@ -119,7 +119,10 @@ summary_info$highest_freedom <- highest_freedom
 summary_info$avg_life_expectancy <- avg_life_expectancy
 summary_info$num_countries <- num_countries
 summary_info$num_regions <- num_regions 
-summary_info$avg_GTP <- avg_GTP
+summary_info$avg_GDP <- avg_GDP
+
+The variables we looked into were the total number of countries in each region, the average Ladder score, the average score of freedom to make life choices, the average GDP per capita score, and the average score for a healthy life expectancy. For one comparison, we compared the ladder score to each country to see which one had the highest or lowest overall happiness score- with Finland scoring the overall highest. Another connection we observed was between the life expectancy in each community, which is an overall term to measure how healthy an individual is likely to be- and here, top 3 regions that scored the highest life expectancy score was East Asia, North America, and Western Europe. 
+
 
 ### Table
 
@@ -135,7 +138,7 @@ summary_table <- WHR_2021 %>% group_by(Regional.indicator) %>% summarise(
   total_countries = n(), 
   avg_ladder_score <- round(mean(Ladder.score), 2),
   avg_freedom_score <- round(mean(Freedom.to.make.life.choices), 2),
-  avg_gtp_score <- round(mean(Logged.GDP.per.capita), 2), 
+  avg_gdp_score <- round(mean(Logged.GDP.per.capita), 2), 
   avg_lifespan_score <- round(mean(Healthy.life.expectancy), 2),
 )
 
@@ -155,4 +158,4 @@ The purpose of this boxplot is to visualize the minimum, first-quartile, median,
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_3.R")}
 ```
-This bar chart shows the ten countries with the highest ladder score in 2021. I use Ladder score to sort the names of these countries from high to low. Using Bar Chart can clearly show the difference between the high and low scores of these countries.
+Describe why you chose this chart and what information it reveals

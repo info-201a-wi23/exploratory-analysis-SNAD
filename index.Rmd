@@ -89,7 +89,8 @@ The future possible implications are that more data shows could help psychologis
 Some limitations faced with the idea of world happiness are that since this data was collected in many countries, there are many cultural differences that may affect how each individual answers their survey questions. This brings up the recurring challenge of subjectivity with this project. There is no universally accepted measurement of happiness, and how each person decides to define it varies on their life experiences. Besides the 6 main factors we are looking into (levels of GDP, life expectancy, generosity, social support, freedom, and corruption), there are so many other factors that may contubute to happiness in an individual. In a lot of countries, mental health is still very stigmatized, leading to many individuals not believing that they might be subjected to it. Thus any questions regarding mental health may not be interpreted the same way depending on each culture. In gerenal there are many data collection methodology we are unaware of how it was done. 
 
 ### Summary Information
-> Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+The variables we looked into were the total number of countries in each region, the average Ladder score, the average score of freedom to make life choices, the average GDP per capita score, and the average score for a healthy life expectancy. For one comparison, we compared the ladder score to each country to see which one had the highest or lowest overall happiness score- with Finland scoring the overall highest. Another connection we observed was between the life expectancy in each community, which is an overall term to measure how healthy an individual is likely to be- and here, top 3 regions that scored the highest life expectancy score was East Asia, North America, and Western Europe. 
+
 
 
 WHR_2021 <- read.csv("./WHR_2021.csv")
@@ -121,9 +122,6 @@ summary_info$num_countries <- num_countries
 summary_info$num_regions <- num_regions 
 summary_info$avg_GDP <- avg_GDP
 
-The variables we looked into were the total number of countries in each region, the average Ladder score, the average score of freedom to make life choices, the average GDP per capita score, and the average score for a healthy life expectancy. For one comparison, we compared the ladder score to each country to see which one had the highest or lowest overall happiness score- with Finland scoring the overall highest. Another connection we observed was between the life expectancy in each community, which is an overall term to measure how healthy an individual is likely to be- and here, top 3 regions that scored the highest life expectancy score was East Asia, North America, and Western Europe. 
-
-
 ### Table
 
 > Include a table of aggregate information
@@ -148,7 +146,7 @@ This table includes the summerized statics for the total number of countries in 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_1.R")}
 ```
-#I chose this chart because I thought it was important to see the impact of a countries population freedom and how they rank in terms of their happiness (determined by the ladder score). This revealed that there is a upward trend in happiness when a country had more freedom to make their own decsions. Additionally, that there is also large variablility and that not every country closely follows the trend. 
+I chose this chart because I thought it was important to see the impact of a countries population freedom and how they rank in terms of their happiness (determined by the ladder score). This revealed that there is a upward trend in happiness when a country had more freedom to make their own decsions. Additionally, that there is also large variablility and that not every country closely follows the trend. 
 ### Chart 2
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_2.R")}

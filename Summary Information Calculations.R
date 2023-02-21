@@ -16,8 +16,8 @@ num_countries <- nrow(WHR_2021)
 #Number of regions
 num_regions <- length(unique(WHR_2021$Regional.indicator))
 
-#Average GTP 
-avg_GTP <- round(mean(WHR_2021$Logged.GDP.per.capita), 2)
+#Average GDP 
+avg_GDP <- round(mean(WHR_2021$Logged.GDP.per.capita), 2)
 
 
 summary_info <- list()
@@ -26,4 +26,4 @@ summary_info$highest_freedom <- highest_freedom
 summary_info$avg_life_expectancy <- avg_life_expectancy
 summary_info$num_countries <- num_countries
 summary_info$num_regions <- num_regions 
-summary_info$avg_GTP <- avg_GTP
+summary_info$avg_GDP <- avg_GDP

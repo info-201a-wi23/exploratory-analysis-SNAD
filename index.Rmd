@@ -4,11 +4,13 @@ output: html_document
 ---
 
 ## Project title
->Give your project a concise, interesting title that summarizes the entirety of your project
+> Give your project a concise, interesting title that summarizes the entirety of your project
+
 World Happiness Project
 
 ### Authors
->Names of your team members
+> Names of your team members
+
 Angela Qi (aqi@uw.edu), Daniel Yan (zifany3@uw.edu), Naomi Nguyen (naomin3@uw.edu), Steve Shannon-Sevillano (stevess@uw.edu)
 
 ### Date

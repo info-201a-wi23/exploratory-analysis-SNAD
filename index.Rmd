@@ -155,4 +155,4 @@ The purpose of this boxplot is to visualize the minimum, first-quartile, median,
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_3.R")}
 ```
-Describe why you chose this chart and what information it reveals
+This bar chart shows the ten countries with the highest ladder score in 2021. I use Ladder score to sort the names of these countries from high to low. Using Bar Chart can clearly show the difference between the high and low scores of these countries.

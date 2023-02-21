@@ -143,23 +143,16 @@ This table includes the summerized statics for the total number of countries in 
 
 ### Chart 1
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_1.R")}
 ```
-
+#I chose this chart because I thought it was important to see the impact of a countries population freedom and how they rank in terms of their happiness (determined by the ladder score). This revealed that there is a upward trend in happiness when a country had more freedom to make their own decsions. Additionally, that there is also large variablility and that not every country closely follows the trend. 
 ### Chart 2
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
+```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_2.R")}
+```
+The purpose of this boxplot is to visualize the minimum, first-quartile, median, third-quartile, and maximum values of life expectancy in regions across the world. Life expectancy is a measure of health in a community and by determining how regions compare with each other, we can isolate factors that are negatively affecting health. This boxplot gives us insight into which regions' life expectancies are high, low, or varying in range.
 ### Chart 3
 
-Include a chart
-
+```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_3.R")}
+```
 Describe why you chose this chart and what information it reveals

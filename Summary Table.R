@@ -1,6 +1,6 @@
 library(dplyr)
 
-WHR_2021 <- read.csv("./WHR_2021.csv")
+WHR_2021 <- read.csv("WHR_2021.csv")
 
 summary_table <- WHR_2021 %>% group_by(Regional.indicator) %>% summarise(
   total_countries = n(), 

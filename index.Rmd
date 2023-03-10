@@ -91,29 +91,60 @@ Some limitations faced with the idea of world happiness are that since this data
 ### Summary Information
 The variables we looked into were the total number of countries in each region, the average Ladder score, the average score of freedom to make life choices, the average GDP per capita score, and the average score for a healthy life expectancy. For one comparison, we compared the ladder score to each country to see which one had the highest or lowest overall happiness score- with Finland scoring the overall highest. Another connection we observed was between the life expectancy in each community, which is an overall term to measure how healthy an individual is likely to be- and here, top 3 regions that scored the highest life expectancy score was East Asia, North America, and Western Europe. 
 
-
-
-WHR_2021 <- read.csv("./WHR_2021.csv")
-
 #Average ladder score
+
+```{r}
+library(dplyr)
+WHR_2021 <- read.csv("WHR_2021.csv")
 avg_ladder <- round(mean(WHR_2021$Ladder.score), 2)
+
+avg_ladder
+```
 
 #Highest country for freedom of decision 
 highest_freedom <- WHR_2021 %>% filter(Freedom.to.make.life.choices == max(Explained.by..Freedom.to.make.life.choices)) %>% pull(Country.name)
 
-#Average life expectancy 
+#Average life expectancy
+```{r}
+library(dplyr)
+WHR_2021 <- read.csv("WHR_2021.csv")
 avg_life_expectancy <- round(mean(WHR_2021$Healthy.life.expectancy), 2)
 
+avg_life_expectancy
+```
+
 #Number of countries 
+```{r}
+library(dplyr)
+WHR_2021 <- read.csv("WHR_2021.csv")
 num_countries <- nrow(WHR_2021)
 
+num_countries
+```
+
+
 #Number of regions
+```{r}
+library(dplyr)
+WHR_2021 <- read.csv("WHR_2021.csv")
 num_regions <- length(unique(WHR_2021$Regional.indicator))
+num_regions
+```
 
 #Average GTP 
-avg_GTP <- round(mean(WHR_2021$Logged.GDP.per.capita), 2)
+```{r}
+library(dplyr)
+WHR_2021 <- read.csv("WHR_2021.csv")
+avg_GDP <- round(mean(WHR_2021$Logged.GDP.per.capita), 2)
+avg_GDP
+```
 
-
+Summary Information
+```{r}
+library(dplyr)
+WHR_2021 <- read.csv("WHR_2021.csv")
+avg_GDP <- round(mean(WHR_2021$Logged.GDP.per.capita), 2)
+highest_freedom <- WHR_2021 %>% filter(Freedom.to.make.life.choices == max(Explained.by..Freedom.to.make.life.choices)) %>% pull(Country.name)
 summary_info <- list()
 summary_info$avg_ladder <- avg_ladder
 summary_info$highest_freedom <- highest_freedom
@@ -122,12 +153,13 @@ summary_info$num_countries <- num_countries
 summary_info$num_regions <- num_regions 
 summary_info$avg_GDP <- avg_GDP
 
+summary_info
+
+```
+
 ### Table
 
-> Include a table of aggregate information
-
-> Describe why you included the table and what information it reveals
-
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(dplyr)
 
 WHR_2021 <- read.csv("./WHR_2021.csv")
@@ -140,20 +172,30 @@ summary_table <- WHR_2021 %>% group_by(Regional.indicator) %>% summarise(
   avg_lifespan_score <- round(mean(Healthy.life.expectancy), 2),
 )
 
+summary_table
+```
+
+
 This table includes the summerized statics for the total number of countries in each region, the average Ladder score, the average score of freedom to make life choices, the average GDP per capita score, and the average score for a healthy life expectancy. The table reveals whether these variables affect an individual's happiness level and how they affect and/or correlate with each other.  
 
 ### Chart 1
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_1.R")}
+```{r, echo = FALSE}
+knitr::include_graphics(file.path(getwd(), "chart_1.png"))
 ```
-I chose this chart because I thought it was important to see the impact of a countries population freedom and how they rank in terms of their happiness (determined by the ladder score). This revealed that there is a upward trend in happiness when a country had more freedom to make their own decsions. Additionally, that there is also large variablility and that not every country closely follows the trend. 
+I chose this chart because I thought it was important to see the impact of a countries population freedom and how they rank in terms of their happiness (determined by the ladder score). This revealed that there is a upward trend in happiness when a country had more freedom to make their own decsions. Additionally, that there is also large variablility and that not every country closely follows the trend.
+
 ### Chart 2
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_2.R")}
 ```
+
 The purpose of this boxplot is to visualize the minimum, first-quartile, median, third-quartile, and maximum values of life expectancy in regions across the world. Life expectancy is a measure of health in a community and by determining how regions compare with each other, we can isolate factors that are negatively affecting health. This boxplot gives us insight into which regions' life expectancies are high, low, or varying in range.
+
 ### Chart 3
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_3.R")}
+```{r, echo = FALSE}
+knitr::include_graphics(file.path(getwd(), "chart_3.png"))
 ```
+
 This bar chart shows the ten countries with the highest ladder score in 2021. I use Ladder score to sort the names of these countries from high to low. Using Bar Chart can clearly show the difference between the high and low scores of these countries.

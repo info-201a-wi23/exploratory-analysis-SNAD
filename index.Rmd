@@ -187,7 +187,8 @@ I chose this chart because I thought it was important to see the impact of a cou
 
 ### Chart 2
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart_2.R")}
+```{r, echo = FALSE, warning = FALSE}
+knitr::include_graphics(file.path(getwd(), "chart_2.png"))
 ```
 
 The purpose of this boxplot is to visualize the minimum, first-quartile, median, third-quartile, and maximum values of life expectancy in regions across the world. Life expectancy is a measure of health in a community and by determining how regions compare with each other, we can isolate factors that are negatively affecting health. This boxplot gives us insight into which regions' life expectancies are high, low, or varying in range.
